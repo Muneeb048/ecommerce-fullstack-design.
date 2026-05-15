@@ -159,10 +159,8 @@ export default function ProductDetailPage() {
         <span className="line-clamp-1 font-medium text-dark">{product.name}</span>
       </nav>
 
-      {/* Top product card */}
       <div className="overflow-hidden rounded-xl border border-gray-200-custom bg-white shadow-sm">
         <div className="grid grid-cols-1 gap-8 p-6 lg:grid-cols-12 lg:gap-6 lg:p-8">
-          {/* Gallery */}
           <div className="lg:col-span-5">
             <div className="overflow-hidden rounded-lg bg-gray-100-custom">
               <img
@@ -187,7 +185,6 @@ export default function ProductDetailPage() {
             </div>
           </div>
 
-          {/* Main info */}
           <div className="lg:col-span-4">
             <div className="flex items-center gap-2 text-sm font-medium text-green-600">
               <FiCheck className="text-lg" strokeWidth={2.5} />
@@ -289,7 +286,6 @@ export default function ProductDetailPage() {
             {added && <p className="mt-3 text-sm font-medium text-green-600">Added to your cart.</p>}
           </div>
 
-          {/* Supplier card */}
           <div className="lg:col-span-3">
             <div className="rounded-lg border border-gray-200-custom bg-gray-100-custom p-5">
               <div className="flex items-start gap-3">
@@ -337,7 +333,6 @@ export default function ProductDetailPage() {
         </div>
       </div>
 
-      {/* Tabs + content + sidebar */}
       <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-12">
         <div className="lg:col-span-8">
           <div className="border-b border-gray-200-custom">
@@ -434,7 +429,6 @@ export default function ProductDetailPage() {
           )}
         </div>
 
-        {/* You may like */}
         <aside className="lg:col-span-4">
           <div className="rounded-lg border border-gray-200-custom bg-white p-4 lg:sticky lg:top-28">
             <h2 className="mb-4 text-base font-bold text-dark">You may like</h2>

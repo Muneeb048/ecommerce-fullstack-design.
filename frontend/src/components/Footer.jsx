@@ -4,10 +4,8 @@ import { FiFacebook, FiTwitter, FiLinkedin, FiInstagram, FiYoutube } from 'react
 function Footer() {
   return (
     <footer className="bg-white border-t border-gray-200 mt-8">
-      {/* Main Footer */}
       <div className="max-w-container mx-auto px-4 lg:px-10 py-10">
         <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
-          {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-3">
               <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
@@ -27,7 +25,6 @@ function Footer() {
             </div>
           </div>
 
-          {/* About */}
           <div>
             <h4 className="font-semibold text-gray-900 mb-3 text-sm">About</h4>
             <ul className="space-y-2">
@@ -44,7 +41,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Partnership */}
           <div>
             <h4 className="font-semibold text-gray-900 mb-3 text-sm">Partnership</h4>
             <ul className="space-y-2">
@@ -56,7 +52,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Information */}
           <div>
             <h4 className="font-semibold text-gray-900 mb-3 text-sm">Information</h4>
             <ul className="space-y-2">
@@ -68,7 +63,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* For users */}
           <div>
             <h4 className="font-semibold text-gray-900 mb-3 text-sm">For users</h4>
             <ul className="space-y-2">
@@ -93,7 +87,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Get app */}
           <div>
             <h4 className="font-semibold text-gray-900 mb-3 text-sm">Get app</h4>
             <div className="space-y-2">
@@ -112,7 +105,6 @@ function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
       <div className="border-t border-gray-200">
         <div className="max-w-container mx-auto px-4 lg:px-10 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-sm text-gray-500">© 2023 Ecommerce.</p>

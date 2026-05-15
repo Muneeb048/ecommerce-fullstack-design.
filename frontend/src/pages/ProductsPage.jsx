@@ -289,7 +289,6 @@ export default function ProductsPage() {
   return (
     <>
       <div className="max-w-container mx-auto px-4 lg:px-10 py-6 lg:py-8">
-      {/* Breadcrumbs */}
       <nav className="mb-4 flex flex-wrap items-center gap-1 text-sm text-gray-500-custom">
         <Link to="/" className="hover:text-primary">
           Home
@@ -303,7 +302,6 @@ export default function ProductsPage() {
       </nav>
 
       <div className="flex flex-col gap-6 lg:flex-row lg:items-start">
-        {/* Mobile / tablet collapsible filters */}
         <details className="group rounded-lg border border-gray-200-custom bg-white lg:hidden">
           <summary className="cursor-pointer list-none px-4 py-3 text-sm font-semibold text-dark [&::-webkit-details-marker]:hidden">
             <span className="flex items-center justify-between">
@@ -314,18 +312,15 @@ export default function ProductsPage() {
           <div className="border-t border-gray-100-custom px-2 pb-2">{sidebar}</div>
         </details>
 
-        {/* Desktop sidebar */}
         <aside className="hidden w-full shrink-0 lg:block lg:w-[260px] xl:w-[280px]">
           <div className="lg:sticky lg:top-24">{sidebar}</div>
         </aside>
 
-        {/* Main */}
         <div className="min-w-0 flex-1">
           {error && (
             <div className="mb-4 rounded-lg border border-red-100 bg-red-50 px-4 py-3 text-sm text-red-600">{error}</div>
           )}
 
-          {/* Toolbar */}
           <div className="mb-4 flex flex-col gap-3 rounded-lg border border-gray-200-custom bg-white px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
             <p className="text-sm text-gray-700">
               <span className="font-bold text-dark">{filtered.length.toLocaleString()}</span>{' '}
@@ -381,7 +376,6 @@ export default function ProductsPage() {
             </div>
           </div>
 
-          {/* Active filter chips (grid design) */}
           {hasActiveTags && (
             <div className="mb-4 flex flex-wrap items-center gap-2">
               {category && (

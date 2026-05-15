@@ -26,10 +26,8 @@ function HeroSection() {
 
   return (
     <section className="max-w-container mx-auto px-4 lg:px-10 mt-4">
-      {/* Single grey-bordered frame like Figma */}
       <div className="rounded-lg border border-gray-200-custom bg-white overflow-hidden shadow-sm">
         <div className="flex flex-col lg:flex-row lg:min-h-[360px]">
-          {/* Left — category list */}
           <aside className="w-full lg:w-[240px] shrink-0 border-b lg:border-b-0 lg:border-r border-gray-200-custom bg-white">
             <ul className="py-1">
               {categories.map((cat, index) => {
@@ -52,7 +50,6 @@ function HeroSection() {
             </ul>
           </aside>
 
-          {/* Center — teal banner + lifestyle imagery */}
           <div
             className="relative flex-1 min-h-[260px] sm:min-h-[300px] lg:min-h-0 overflow-hidden"
             style={{
@@ -73,7 +70,6 @@ function HeroSection() {
               </Link>
             </div>
 
-            {/* Product collage — right side */}
             <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-[58%] sm:block">
               <img
                 src={HERO_IMG.laptop}
@@ -88,7 +84,6 @@ function HeroSection() {
             </div>
           </div>
 
-          {/* Right — stacked promo cards (Figma) — from lg */}
           <aside className="flex w-full shrink-0 flex-col gap-3 border-t border-gray-200-custom bg-white p-4 lg:w-[220px] lg:border-l lg:border-t-0 xl:w-[236px]">
             <div className="rounded-lg bg-[#E5F1FF] p-4 text-center">
               <div className="mx-auto mb-2 flex h-10 w-10 items-center justify-center rounded-full bg-white">

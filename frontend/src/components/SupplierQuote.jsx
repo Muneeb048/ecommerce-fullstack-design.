@@ -14,7 +14,6 @@ function SupplierQuote() {
           }}
         />
         <div className="relative z-10 flex flex-col md:flex-row items-center gap-6 p-8 md:p-10">
-          {/* Left Content */}
           <div className="flex-1 text-white">
             <h2 className="text-2xl md:text-3xl font-bold leading-tight mb-3">
               An easy way to send<br />requests to all suppliers
@@ -24,7 +23,6 @@ function SupplierQuote() {
             </p>
           </div>
 
-          {/* Right - Quote Form */}
           <div className="w-full md:w-[400px] shrink-0 bg-white rounded-lg p-5 shadow-lg">
             <h3 className="text-lg font-semibold text-gray-900 mb-4">Send quote to suppliers</h3>
             <div className="space-y-3">

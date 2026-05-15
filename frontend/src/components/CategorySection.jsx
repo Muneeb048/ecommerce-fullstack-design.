@@ -5,7 +5,6 @@ function CategorySection({ title, products, bannerImage, sourceHref = '/products
     <section className="max-w-container mx-auto px-4 lg:px-10 mt-6">
       <div className="overflow-hidden rounded-lg border border-gray-200-custom bg-white shadow-sm">
         <div className="flex flex-col md:flex-row">
-          {/* Left — full-bleed lifestyle image + overlay (Figma) */}
           <div className="relative min-h-[220px] w-full shrink-0 overflow-hidden md:w-[280px] md:min-h-[280px] lg:w-[320px]">
             <div
               className="absolute inset-0 bg-cover bg-center"
